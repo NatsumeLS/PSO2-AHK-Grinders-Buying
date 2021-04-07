@@ -4,6 +4,7 @@ Run this script as administrator for NA version if virtual keypresses are not pi
 # My Modifications
 - Adjusted Server Action Delay to 1000ms
 - Change targeted storage to Material Storage for user with Premium Storage
+
 *You will need to edit the script if you don't have Premium Storage
 
 # Important note
@@ -17,12 +18,14 @@ Buying Process
 - Walk to EX-Cube Exchanger NPC
 - Position yourself where interaction is targeted.
 - Click Start Buying.
+
 *You must set your inventory to material tab and have no items prior to starting this script. 
 
 You can set how much meseta you want firstly and the script will only buy enough grinders to reach your targeted meseta.
 - 1 means 1 million meseta target
 - 0 means no target and the script will buy the max amount of grinders
 - Maximum is 25 milliions target because that's around the maximum amount of grinders your mat stroage can handle.
+
 *You can also see the amount of grinders you have bought and meseta amount of it in the GUI so if you're only buying for a small amount of money you can end the buying process sooner by clicking Stop Buying button.
 
 Selling Process
