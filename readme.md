@@ -1,4 +1,4 @@
-# PSO2 Grinders Buying & Selling
+# PSO2 Grinders Buying/Selling
 ![Screenshot](/Screenshot.png?raw=true "Screenshot")
 
 # Important
