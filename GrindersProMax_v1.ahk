@@ -60,13 +60,13 @@ toggle := true
 			ControlSend,, {e}, ahk_id %programid1%;Open NPC
 			Sleep, 650
 			ControlSend,, {Enter}, ahk_id %programid1% ;Open Shop (Server Action)
-			Sleep, 500
+			Sleep, 1000
 			ControlSend,, {Left}, ahk_id %programid1% ;Max Buy
 			Sleep, 200
 			ControlSend,, {Enter}, ahk_id %programid1% ;Purchase
 			Sleep, 200
 			ControlSend,, {Enter}, ahk_id %programid1% ;Confirm Purchase (Server Action)
-			Sleep, 400
+			Sleep, 1000
 			ControlSend,, {Enter}, ahk_id %programid1% ;Close Purchase Complete
 			Sleep, 200
 			ControlSend,, {Esc}, ahk_id %programid1% ;Close Shop
@@ -79,15 +79,13 @@ toggle := true
 			Sleep, 200
 			ControlSend,, {Enter}, ahk_id %programid1% ;Open item menu
 			Sleep, 200
+			ControlSend,, {Enter}, ahk_id %programid1% ;Open Storage selection menu
+			Sleep, 200
 			ControlSend,, {Down}, ahk_id %programid1% ;Storage selection start
 			Sleep, 200
 			ControlSend,, {Down}, ahk_id %programid1%
 			Sleep, 200
-			ControlSend,, {Down}, ahk_id %programid1%
-			Sleep, 200
-			ControlSend,, {Down}, ahk_id %programid1%
-			Sleep, 200
-			ControlSend,, {Down}, ahk_id %programid1%
+			ControlSend,, {Down}, ahk_id %programid1% ;Storage selection end
 			Sleep, 200
 			ControlSend,, {Enter}, ahk_id %programid1% ;Deposit
 			Sleep, 200
@@ -122,7 +120,7 @@ Loop {
 		ControlSend,, {Enter}, ahk_id %programid1%
 		Sleep, 200
 		ControlSend,, {Enter}, ahk_id %programid1%
-		Sleep, 400	
+		Sleep, 1000	
 		ControlSend,, {Enter}, ahk_id %programid1% 
 		Sleep, 200	
 		--GrinderSellAmount
