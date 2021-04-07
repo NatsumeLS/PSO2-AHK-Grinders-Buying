@@ -1,6 +1,5 @@
 #My Modifications
-Adjusted Server Action Delay to 1000ms
-Change targeted storage to Material Storage
+Adjusted Server Action Delay to 1000ms and Change targeted storage to Material Storage
 
 #Important note
 It is best to bring this program to foreground with F1 to perform tasks while you're in the game instead of alt tabbing because alt tabbing might mess up with selections in the game. And it is important that you don't input anything into the game while the script is running.
