@@ -18,7 +18,7 @@ Gui, Main:add, button, x10 y150 w110 h25 vStartSellingManuallyBtn gStartSellingM
 Gui, Main:add, button, x130 y150 w110 h25 vStopManualSellBtn gStopManualSell, Stop Manual Selling
 Gui, Main:Default
 Gui, -sysmenu
-gui, Main:show,,PSO2 Grinders Buying & Selling
+gui, Main:show,,PSO2 Grinders Buying/Selling
 GuiControl,Disable,SellBtn
 GuiControl,Disable,StopManualSellBtn
 return
@@ -157,7 +157,7 @@ UpdateStatus(status)
 	GuiControl,,Status,%status%
 }
 #WinActivateForce
-F1::WinActivate, PSO2 Grinders Buying & Selling
+F1::WinActivate, PSO2 Grinders Buying/Selling
 return
 
 F2::Run https://github.com/NatsumeLS/PSO2-AHK-Grinders-Buying-Selling/blob/master/readme.md
