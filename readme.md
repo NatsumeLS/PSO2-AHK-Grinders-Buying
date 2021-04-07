@@ -1,3 +1,6 @@
+# PSO2 Grinders Buying & Selling
+![Screenshot](/Screenshot.png?raw=true "Screenshot")
+
 # Important
 Run this script as administrator for NA version if virtual keypresses are not picked up by the game.
 
