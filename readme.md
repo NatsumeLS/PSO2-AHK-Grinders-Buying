@@ -1,3 +1,6 @@
+#Important
+Run this script as administrator for NA version if virtual keypresses are not picked up by the game
+
 #My Modifications
 Adjusted Server Action Delay to 1000ms and Change targeted storage to Material Storage
 
