@@ -8,7 +8,7 @@ Run this script as administrator for NA version if virtual keypresses are not pi
 - Adjusted Server Action Delay to 1000ms
 - Change targeted storage to Material Storage for user with Premium Storage
 
-*You will need to edit the script by removing lines 67 and 68 if you don't have Premium Storage
+*You will need to edit the script by removing lines 65 and 66 if you don't have Premium Storage
 
 # Important note
 - It is best to bring this program to foreground with F1 to perform tasks while you're in the game.

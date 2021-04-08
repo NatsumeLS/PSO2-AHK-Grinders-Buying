@@ -60,8 +60,6 @@ toggle := true
 			Sleep, 200
 			ControlSend,, {Enter}, ahk_id %programid1% ;Open item menu
 			Sleep, 200
-			ControlSend,, {Enter}, ahk_id %programid1% ;Open Storage selection menu
-			Sleep, 200
 			ControlSend,, {Down}, ahk_id %programid1% ;Storage selection start
 			Sleep, 200
 			ControlSend,, {Down}, ahk_id %programid1%
@@ -71,6 +69,8 @@ toggle := true
 			ControlSend,, {Enter}, ahk_id %programid1% ;Deposit
 			Sleep, 200
 			ControlSend,, {Esc}, ahk_id %programid1% ;Close menu for re-run
+			Sleep, 200
+			ControlSend,, {Esc}, ahk_id %programid1%
 			Sleep, 200
 			--GrinderMaxBuyAmount
 			++GrinderSellAmount
