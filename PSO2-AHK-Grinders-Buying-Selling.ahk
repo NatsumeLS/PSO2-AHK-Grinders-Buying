@@ -41,37 +41,35 @@ toggle := true
 			ControlSend,, {e}, ahk_id %programid1%;Open NPC
 			Sleep, 650
 			ControlSend,, {Enter}, ahk_id %programid1% ;Open Shop (Server Action)
-			Sleep, 1000
+			Sleep, 5000
 			ControlSend,, {Left}, ahk_id %programid1% ;Max Buy
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Enter}, ahk_id %programid1% ;Purchase
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Enter}, ahk_id %programid1% ;Confirm Purchase (Server Action)
 			Sleep, 1000
 			ControlSend,, {Enter}, ahk_id %programid1% ;Close Purchase Complete
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Esc}, ahk_id %programid1% ;Close Shop
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Esc}, ahk_id %programid1% ;Close NPC	
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {i}, ahk_id %programid1% ;Open Inventory
 			Sleep, 250
 			ControlSend,, {Shift}{Enter}, ahk_id %programid1% ;Select all of first item stack
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Enter}, ahk_id %programid1% ;Open item menu
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Down}, ahk_id %programid1% ;Storage selection start
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Down}, ahk_id %programid1%
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Down}, ahk_id %programid1% ;Storage selection end
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Enter}, ahk_id %programid1% ;Deposit
-			Sleep, 200
+			Sleep, 300
 			ControlSend,, {Esc}, ahk_id %programid1% ;Close menu for re-run
-			Sleep, 200
-			ControlSend,, {Esc}, ahk_id %programid1%
-			Sleep, 200
+			Sleep, 300
 			--GrinderMaxBuyAmount
 			++GrinderSellAmount
 			UpdateStatus("Buying " . RegExReplace(GrinderMaxBuyAmount*999, "(\G|[^\d.])\d{1,3}(?=(\d{3})+(\D|$))", "$0,")   . " More Grinders... `n" . RegExReplace(GrinderSellAmount*999, "(\G|[^\d.])\d{1,3}(?=(\d{3})+(\D|$))", "$0,") . " grinders bought `n" . RegExReplace(GrinderSellAmount*999*400, "(\G|[^\d.])\d{1,3}(?=(\d{3})+(\D|$))", "$0,") . " meseta worth"  )
@@ -97,13 +95,13 @@ StartSelling:
 Loop {
 	if (GrinderSellAmount > 0) {
 		ControlSend,, {Left}, ahk_id %programid1% 
-		Sleep, 200
+		Sleep, 300
 		ControlSend,, {Enter}, ahk_id %programid1%
-		Sleep, 200
+		Sleep, 300
 		ControlSend,, {Enter}, ahk_id %programid1%
 		Sleep, 1000	
 		ControlSend,, {Enter}, ahk_id %programid1% 
-		Sleep, 200	
+		Sleep, 300	
 		--GrinderSellAmount
 		++SoldGrinderAmount
 		UpdateStatus("Selling " . RegExReplace(GrinderSellAmount*999, "(\G|[^\d.])\d{1,3}(?=(\d{3})+(\D|$))", "$0,") . " More Grinders...")
@@ -132,13 +130,13 @@ GuiControl,Disable,TargetMeseta
 GuiControl,Enable,StopManualSellBtn
 	While toggle = true{
 	ControlSend,, {Left}, ahk_id %programid1% 
-	Sleep, 200
+	Sleep, 300
 	ControlSend,, {Enter}, ahk_id %programid1%
-	Sleep, 200
+	Sleep, 300
 	ControlSend,, {Enter}, ahk_id %programid1%
 	Sleep, 400	
 	ControlSend,, {Enter}, ahk_id %programid1% 
-	Sleep, 200	
+	Sleep, 300	
 	}
 	
 StopManualSell: ;Button Action
