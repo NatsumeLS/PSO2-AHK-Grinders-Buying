@@ -41,7 +41,7 @@ toggle := true
 			ControlSend,, {e}, ahk_id %programid1%;Open NPC
 			Sleep, 650
 			ControlSend,, {Enter}, ahk_id %programid1% ;Open Shop (Server Action)
-			Sleep, 5000
+			Sleep, 2500
 			ControlSend,, {Left}, ahk_id %programid1% ;Max Buy
 			Sleep, 300
 			ControlSend,, {Enter}, ahk_id %programid1% ;Purchase
