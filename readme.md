@@ -4,11 +4,15 @@
 # Important
 Run this script as administrator for NA version if virtual keypresses are not picked up by the game.
 
-# My Modifications
-- Adjusted Server Action Delay to 1000ms
-- Change targeted storage to Material Storage for user with Premium Storage
+# Updates from upstream
+- Excube limit mode is added
+- Fixed calculation mistake in code which was counting grinder bought per loop as 999 when in reality you only buy 990 grinder each time in the game
+- Added excube used information to various status texts
 
-*You will need to edit the script by removing lines 65 and 66 if you don't have Premium Storage
+# My Modifications
+- Adjusted Server Action Delay by 1000ms
+- Change targeted storage to Default Storage
+- Removed Selling Function
 
 # Important note
 - It is best to bring this program to foreground with F1 to perform tasks while you're in the game.
